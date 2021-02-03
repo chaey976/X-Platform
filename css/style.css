@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:300&text=:);
+body, html {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	background: url("../image/bg.jpg");
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.clock {
+	display: grid;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.clock .display {
+	font-size: 80px;
+	letter-spacing: 5px;
+	font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif; 
+  	font-weight: 300;
+	color: white;
+}
+
+.date {
+	font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif; 
+	font-size: 28px;
+	letter-spacing: 5px;
+	font-weight: 300;
+	color: white;
+}
+
+.alert {
+	height: 190px;
+	width: 560px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+.notif {
+	height: 190px;
+	width: 600px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+a {
+	font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+	font-size: 15px;
+	position: absolute;
+	bottom: 293px;
+	right: 56%;
+}
